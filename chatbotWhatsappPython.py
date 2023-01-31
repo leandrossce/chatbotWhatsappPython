@@ -42,7 +42,7 @@ elemento usando uma expressão XPath.
 
 def enviararrayMensagensDiversas(text):
     navegador.find_element(By.XPATH, '/html//div[@id="main"]/footer[@class="_3E8Fg"]//div[@class="g0rxnol2"]//div[@role="textbox"]').click() # ativar campo para digitar mensagem
-    navegador.find_element(By.XPATH, '/html//div[@id="main"]/footer[@class="_3E8Fg"]//div[@class="g0rxnol2"]//div[@role="textbox"]').send_keys(text)	   # para apontamento aleatorio
+    navegador.find_element(By.XPATH, '/html//div[@id="main"]/footer[@class="_3E8Fg"]//div[@class="g0rxnol2"]//div[@role="textbox"]').send_keys(text)	   # ativação do campo para digitação da mensagem no whatsapp 
     navegador.find_element(By.XPATH,'//*[@id="main"]//button[@class="tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq"]').click() #enviar mensagem digitada
 
 
